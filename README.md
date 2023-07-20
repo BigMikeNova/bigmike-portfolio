@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# BigMikeNova Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio repository! This repository contains the source code for my professional portfolio website, showcasing my projects, skills, and experience as a software developer.
 
-## Available Scripts
+You can access the live version of the portfolio at [https://www.bigmikenova.dev](https://www.bigmikenova.dev).
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+As a passionate software developer, I wanted to create a platform to showcase my projects, skills, and experiences in one place. This portfolio website is the result of my dedication to providing an interactive and user-friendly experience for visitors interested in learning more about my work.
 
-### `npm test`
+The live portfolio can be accessed at [https://www.bigmikenova.dev](https://www.bigmikenova.dev).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Project Showcase:** Detailed display of my projects, including descriptions, technologies used, live demos, and links to GitHub repositories.
+- **About Me:** An introduction to myself, my passion for coding, and my journey as a software developer.
+- **Skills:** An overview of the programming languages, frameworks, and tools I am proficient in.
+- **Resume:** A downloadable PDF version of my resume, summarizing my work experience and education.
+- **Contact:** A contact form and information for potential employers or collaborators to reach out to me.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The portfolio is built using the following technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A typed superset of JavaScript, providing static typing for better code integrity.
+- **HTML5:** The standard markup language for creating web pages and applications.
+- **CSS3:** The style sheet language used for designing the portfolio's layout and appearance.
+- **Bootstrap:** A popular CSS framework used for responsive and mobile-first design.
+- **Node.js:** A JavaScript runtime used for server-side scripting and building scalable network applications.
+- **Express.js:** A Node.js framework used for building server-side applications and APIs.
+- **Webpack:** A module bundler used to bundle JavaScript files for usage in a browser.
+- **Babel:** A transpiler used to convert modern JavaScript code into older versions for browser compatibility.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the portfolio locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository to your local machine using `git clone https://github.com/BigMikeNova/bigmike-portfolio.git`
+2. Navigate to the project directory: `cd bigmike-portfolio`
+3. Install the required dependencies: `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To start the development server and view the portfolio, use the following command:
 
-## Learn More
+```bash
+npm start
+This will launch the application at http://localhost:3000 in your web browser.
+```
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is structured as follows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Project.js
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Resume.js
+│   │   ├── Contact.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── webpack.config.js
+└── ...
+```
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you would like to get in touch with me, you can reach me via email at mike.novachek@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/mike-novachek/). I'm excited to hear from you and explore potential collaboration opportunities!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
