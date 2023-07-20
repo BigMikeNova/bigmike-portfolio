@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bigmike-portfolio/static/css/main.0fb84b0d.css",
+    "main.js": "/bigmike-portfolio/static/js/main.85887920.js",
+    "static/media/foodbg.png": "/bigmike-portfolio/static/media/foodbg.e5fb3d6cf25b1b092f56.png",
+    "static/media/portfolio-profile-pic.png": "/bigmike-portfolio/static/media/portfolio-profile-pic.22da971227662b1d029e.png",
+    "static/media/css-logo.png": "/bigmike-portfolio/static/media/css-logo.5a67d4748c2c477c5ebc.png",
+    "static/media/beer-traveler.jpg": "/bigmike-portfolio/static/media/beer-traveler.ee6e8a60b84aa2fb2d4e.jpg",
+    "index.html": "/bigmike-portfolio/index.html",
+    "main.0fb84b0d.css.map": "/bigmike-portfolio/static/css/main.0fb84b0d.css.map",
+    "main.85887920.js.map": "/bigmike-portfolio/static/js/main.85887920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb84b0d.css",
+    "static/js/main.85887920.js"
+  ]
+}
