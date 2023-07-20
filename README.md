@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This repository contains the source code for my professional portfolio website, showcasing my projects, skills, and experience as a software developer.
 
-You can access the live version of the portfolio at [https://www.bigmikenova.dev](https://www.bigmikenova.dev).
+You can access the live version of the portfolio at [https://BigMikeNova.github.io/bigmike-portfolio/](https://BigMikeNova.github.io/bigmike-portfolio/).
 
 ## Table of Contents
 
