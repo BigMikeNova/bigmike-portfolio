@@ -1,7 +1,8 @@
 import React from 'react';
 import beer from '../assets/beer-traveler.jpg';
 import food from '../assets/foodbg.png';
-import cheatSheet from '../assets/css-logo.png'
+import cheatSheet from '../assets/css-logo.png';
+import socialAPI from '../assets/social-api.png';
 
 const Works = () => {
   return (
@@ -88,8 +89,28 @@ const Works = () => {
               </div>
             </div>
           </div>
+          <div
+            style={{ backgroundImage: `url(${socialAPI})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Social Network API Code
+              </span>
+              <p className='text-center'>Backend API for a Social Media Site</p>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/BigMikeNova/NoSQL-Social-API'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        {/* add more here */}
         </div>
-    </div>        
+    </div> 
 </div>
   );
 };
